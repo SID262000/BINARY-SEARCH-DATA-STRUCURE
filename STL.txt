@@ -3,8 +3,8 @@
 a[]={1,5,6,7,8,9,2,3};
 
 //Returns whether the element is present in the array
-bool res = binary_search(a,a+n,3); //(False)
-bool res = binary_search(a,a+n,4); //(True)
+bool res = binary_search(a,a+n,3); //(True)
+bool res = binary_search(a,a+n,4); //(False)
 
 NOTE: upper_bound and lower_bound works only on sorted array
 //lower_bound function(Returns the iterator to the element)
